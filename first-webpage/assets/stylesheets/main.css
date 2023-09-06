@@ -1,3 +1,8 @@
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
 *,
 *:before,
 *:after {
@@ -6,12 +11,27 @@
           box-sizing: border-box;
 }
 
+body {
+    color: #888;
+    font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
 p{
     color: black;
     font-size: 15px;
     /* border: 2px solid black;
     border-radius: 2px; */
 }
+a {
+    color: #648880;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #a9b2b9;
+  }
+  p a {
+    border-bottom: 1px solid #dfe2e5;
+  }
 
 section {
     display: inline-block;
@@ -58,6 +78,46 @@ h1, h3, h4, h5, p {
     margin-bottom: 22px;
 }
 
+h1, h2, h3, h4 {
+    color: #648880;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 44px;
+}
+h2 {
+    font-size: 24px;
+    line-height: 44px;
+}
+h3 {
+    font-size: 21px;
+}
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+  color: #a9b2b9;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+a:hover {
+    color: #a9b2b9;
+}
+a {
+    color: #648880;
+}
+
+strong {
+    font-weight: 400;
+}
+cite, em {
+    font-style: italic;
+}
+
 .btn {
     border-radius: 5px;
     display: inline-block;
@@ -66,23 +126,39 @@ h1, h3, h4, h5, p {
 
 .btn-alt {
     border: 1px solid #dfe2e5;
-    background-color: lightblue;
     padding: 10px 30px;
   }
 
-  .logo {
+.logo {
     border-top: 4px solid #648880;
-    padding: 40px 0 22px 0;
     float: left;
-  }
-
-.primary-footer {
-padding-bottom: 44px;
-padding-top: 44px;
+    font-size: 48px;
+    line-height: 44px;
+    padding: 40px 0 22px 0;
 }
 
-.primary-footer small{
-    float:left;
+.primary-footer {
+    color: #648880;
+    font-size: 14px;
+    padding-bottom: 44px;
+    padding-top: 44px;
+  }
+  .primary-footer small {
+    float: left;
+    font-weight: 400;
+  }
+
+
+.hero {
+  line-height: 44px;
+  padding: 22px 80px 66px 80px;
+  text-align: center;
+}
+.hero h2 {
+    font-size: 36px;
+}
+.hero p {
+    font-size: 24px;
 }
 
 .grid,
@@ -104,3 +180,24 @@ padding-top: 44px;
 .col-2-3 {
 width: 66.66%;
 }
+
+.tagline {
+    margin: 66px 0 22px 0;
+    text-align: right;
+  }
+
+
+.nav {
+  text-align: right;
+}
+
+.primary-nav {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+
+  .teaser a:hover h3 {
+    color: #a9b2b9;
+  }
