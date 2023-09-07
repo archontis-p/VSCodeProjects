@@ -55,19 +55,10 @@ a {
     border-bottom: 1px solid #dfe2e5;
   }
 
-section {
-    display: inline-block;
-    margin: 0;
-    width: 30%;
-  }
-
+section,
 aside {
-    float: right;
-    margin: 0 1.5%;
-    width: 30%;
+  margin: 0;
 }
-
-
 
 .container ,
 .grid{
@@ -291,3 +282,30 @@ width: 66.66%;
     font-size: 21px;
     line-height: 33px;
   }
+
+  .nav li {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+  }
+  .nav li:last-child {
+    margin-right: 0;
+  }
+
+  .speaker {
+    margin-bottom: 44px;
+  }
+
+  .speaker-info {
+    border: 1px solid #dfe2e5;
+    border-radius: 5px;
+    margin-top: 88px;
+    padding: 22px 0;
+    text-align: center;
+  }
+
+  .speaker-info ul{
+    list-style-type: none;
+  }
+
+
