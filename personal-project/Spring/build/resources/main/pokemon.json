@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "name": "bulbasaur",
+    "height": 7,
+    "weight": 69,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+  },
+  {
+    "id": 4,
+    "name": "charmander",
+    "height": 6,
+    "weight": 85,
+    "types": [
+      "fire"
+    ],
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+  },
+  {
+    "id": 7,
+    "name": "squirtle",
+    "height": 5,
+    "weight": 90,
+    "types": [
+      "water"
+    ],
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+  },
+  {
+    "id": 25,
+    "name": "pikachu",
+    "height": 4,
+    "weight": 60,
+    "types": [
+      "electric"
+    ],
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+  }
+]
