@@ -100,6 +100,29 @@ aside {
   margin: 0;
 }
 
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  min-width: 30%;
+  width: 60%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  color: black;
+}
+
+th{
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #88b7e681;
+}
+
 .container ,
 .grid{
     display: flex;
@@ -120,8 +143,11 @@ aside {
   margin: 30px;
   background-color: #1a3d82;
   color: white;
-  border-radius: 1%;
+  border-radius: 10px;
   border: 2px solid #1a3d82;
+  padding: 20px 20px;
+  font-size: 20px;
+  font-weight: bold;
 
 }
 

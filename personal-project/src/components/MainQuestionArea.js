@@ -3,14 +3,14 @@ import Button from './Button'
 
 const MainQuestionArea = ({questionInfo, showAnswer, nextQ}) => {
 
-    const correct = {
+    let correct = {
         "a": (questionInfo["a"]===questionInfo["correct"]), 
         "b": (questionInfo["b"]===questionInfo["correct"]), 
         "c": (questionInfo["c"]===questionInfo["correct"]), 
         "d": (questionInfo["d"]===questionInfo["correct"])
     }
 
-    const classN = {
+    let classN = {
         "a": (correct["a"] ? 'btn correct' : 'btn false'),
         "b": (correct["b"] ? 'btn correct' : 'btn false'),
         "c": (correct["c"] ? 'btn correct' : 'btn false'),
